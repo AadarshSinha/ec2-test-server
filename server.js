@@ -6,7 +6,7 @@ app.use(express.json())
 app.all('/*', async (req, res) => {
     try {
         console.log("req came")
-        res.send({message: "Server is successfully deployed now" })
+        res.send({message: "Server is successfully updated now" })
     } catch (error) {
         console.log(error)
     }
